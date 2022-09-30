@@ -142,6 +142,9 @@ def call_Anuja():
      elif 'Is Loki your friend?>' in command:
         cmd = talk('aaa... Lets watch Loki')
         print(cmd)
+       elif 'Hi alexa!! how are you' in command:
+        cmd = talk('Hey.....Im good')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
