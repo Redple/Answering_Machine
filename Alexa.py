@@ -155,7 +155,11 @@ def call_Anuja():
       
       elif 'What is your Favourite Game?' in command:
         cmd=talk('my favourite game is COD')
-        print(cmd)  
+        print(cmd) 
+        
+        elif 'What is your Favourite Food?' in command:
+        cmd=talk('my favourite game is PuranPoli')
+        print(cmd) 
         
 
 call_Anuja()
