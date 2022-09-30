@@ -149,5 +149,10 @@ def call_Anuja():
         elif 'What is your name?' in command:
         cmd=talk('my name is  Google')
         print(cmd)
+      
+      elif 'What is your Favourite Game?' in command:
+        cmd=talk('my favourite game is COD')
+        print(cmd)  
+        
 
 call_Anuja()
